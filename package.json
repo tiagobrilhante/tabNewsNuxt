@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "2.0.0",
+    "@nuxt/image": "1.11.0",
+    "@nuxt/scripts": "0.11.13",
+    "@nuxtjs/i18n": "10.1.0",
+    "@pinia/nuxt": "^0.11.2",
+    "@unhead/vue": "^2.0.14",
+    "@vueuse/nuxt": "13.9.0",
+    "drizzle-orm": "^0.44.5",
+    "nuxt": "^4.1.2",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.5.0",
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1",
+    "vuetify-nuxt-module": "0.18.7"
+  },
+  "packageManager": "pnpm@10.17.0+sha512.fce8a3dd29a4ed2ec566fb53efbb04d8c44a0f05bc6f24a73046910fb9c3ce7afa35a0980500668fa3573345bd644644fa98338fa168235c80f4aa17aa17fbef",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@faker-js/faker": "^10.0.0",
+    "drizzle-kit": "^0.31.4",
+    "eslint-config-prettier": "^10.1.8",
+    "lint-staged": "^16.1.6",
+    "tsx": "^4.20.5",
+    "@nuxt/eslint": "1.9.0",
+    "@nuxt/test-utils": "3.19.2",
+    "dotenv": "^17.2.2",
+    "eslint": "^9.35.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}
